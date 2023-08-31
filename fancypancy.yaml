@@ -26,13 +26,28 @@ wifi:
   ap:
     password: "sharingwifi"
 
+improv_serial:
+
 captive_portal:
     
 switch:
   - platform: gpio
     pin: GPIO16
     name: "Testknopje"
+    id: testknop
+
+binary_sensor:
+  - platform: gpio
+    pin: GPIO15
+    name: "Factory Reset"
+    device_class: window
+    filters:
+      - delayed_on_off: 10ms
+    on_press:
+      - button.press: reset_button
 
 button:
   - platform: factory_reset
+    id: reset_button
     name: Restart with Factory Default Settings
+
