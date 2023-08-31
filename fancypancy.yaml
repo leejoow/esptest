@@ -1,7 +1,7 @@
 esphome:
   name: fancypancy
   friendly_name: Fancy Pancy Sensors
-  name_add_mac_suffix: false
+  name_add_mac_suffix: true
   comment: "Test voor het installeren van een nieuw device"
   project:
     name: "lschelvis.fancy"
@@ -20,7 +20,7 @@ ota:
 
 dashboard_import:
   package_import_url: github://leejoow/esptest/fancypancy.yaml@main
-  import_full_config: true
+  import_full_config: false
 
 wifi:
   ap:
