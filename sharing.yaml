@@ -19,8 +19,8 @@ api:
 ota:
 
 dashboard_import:
-  package_import_url: github://leejoow/esptest/edit/main/sharing.yaml
-  import_full_config: false # or true
+  package_import_url: github://leejoow/esptest/sharing.yaml@main
+  import_full_config: true
 
 wifi:
   ap:
