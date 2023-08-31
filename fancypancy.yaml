@@ -1,0 +1,38 @@
+esphome:
+  name: fancypancy
+  friendly_name: Fancy Pancy Sensors
+  name_add_mac_suffix: true
+  comment: "Test voor het installeren van een nieuw device"
+  project:
+    name: "lschelvis.fancy"
+    version: "1.0.0"
+
+esp8266:
+  board: esp01_1m
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+
+ota:
+
+dashboard_import:
+  package_import_url: github://leejoow/esptest/fancypancy.yaml@main
+  import_full_config: true
+
+wifi:
+  ap:
+    password: "sharingwifi"
+
+captive_portal:
+    
+switch:
+  - platform: gpio
+    pin: GPIO16
+    name: "Testknopje"
+
+button:
+  - platform: factory_reset
+    name: Restart with Factory Default Settings
