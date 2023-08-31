@@ -1,0 +1,30 @@
+esphome:
+  name: sharing
+  friendly_name: sharing
+  name_add_mac_suffix: true
+  comment: "Test voor het installeren van een nieuw device"
+  project:
+    name: "pdjong.mbusreader"
+    version: "1.0.0"
+
+esp8266:
+  board: esp01_1m
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+
+ota:
+
+wifi:
+  ap:
+    password: "sharingwifi"
+
+captive_portal:
+    
+switch:
+  - platform: gpio
+    pin: GPIO16
+    name: "Testknopje"
