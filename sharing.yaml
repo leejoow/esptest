@@ -32,3 +32,7 @@ switch:
   - platform: gpio
     pin: GPIO16
     name: "Testknopje"
+
+button:
+  - platform: factory_reset
+    name: Restart with Factory Default Settings
