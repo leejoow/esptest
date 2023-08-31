@@ -26,8 +26,6 @@ wifi:
   ap:
     password: "sharingwifi"
 
-improv_serial:
-
 captive_portal:
     
 switch:
