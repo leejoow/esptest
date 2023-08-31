@@ -1,7 +1,7 @@
 esphome:
   name: fancypancy
   friendly_name: Fancy Pancy Sensors
-  name_add_mac_suffix: true
+  name_add_mac_suffix: false
   comment: "Test voor het installeren van een nieuw device"
   project:
     name: "lschelvis.fancy"
