@@ -1,14 +1,14 @@
+esp8266:
+  board: esp01_1m
+
 esphome:
-  name: fancypancy
   friendly_name: Fancy Pancy Sensors
   name_add_mac_suffix: true
+  name: fancypancy
   comment: "Test voor het installeren van een nieuw device"
   project:
     name: "lschelvis.fancy"
     version: "1.1.0"
-
-esp8266:
-  board: esp01_1m
 
 external_components:
   - source: github://pr#4456
