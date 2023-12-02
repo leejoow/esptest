@@ -6,6 +6,9 @@ substitutions:
 esphome:
   name: ${device_name}
   friendly_name: ${friendly_name}
+  project:
+    name: "lschelvis.ithodaalderop"
+    version: "1.0.0"
 
 esp32:
   board: esp32dev
@@ -17,7 +20,7 @@ external_components:
     refresh: 0s
     
 dashboard_import:
-  package_import_url: github://esphome/esphome-project-template/project-template-esp32.yaml@v6
+  package_import_url: github://leejoow/esptest/ithodaalderop-2relay.yaml@main
   import_full_config: true  
 
 # Enable logging
