@@ -1,6 +1,6 @@
 {
   "name": "My ESPHome Project",
-  "versiona": "0.2.0",
+  "version": "0.2.0",
   "builds": [
     {
       "chipFamily": "ESP32",
