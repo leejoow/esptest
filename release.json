@@ -1,9 +1,9 @@
 {
   "name": "My ESPHome Project",
-  "version": "2024.6.1",
+  "version": "1.0.0",
   "builds": [
     {
-      "chipFamily": "ESP32-C3",
+      "chipFamily": "ESP32",
       "ota": {
         "md5": "1234567890abcdef1234567890abcdef",
         "path": "/local/esp32c3/firmware.bin"
