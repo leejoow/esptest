@@ -5,7 +5,7 @@
     {
       "chipFamily": "ESP32",
       "ota": {
-        "md5": "bc2ebebd066538a81cd167ca947504de",
+        "md5": "221142619c7b787d4f5c9298daede03d",
         "path": "/leejoow/esptest/main/firmware.bin"
       }
     }
