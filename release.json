@@ -1,0 +1,13 @@
+{
+  "name": "My OTA Test Project",
+  "version": "0.2.0",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "ota": {
+        "md5": "221142619c7b787d4f5c9298daede03d",
+        "path": "/leejoow/esptest/main/firmware.bin"
+      }
+    }
+  ]
+}
