@@ -1,11 +1,11 @@
 {
-  "name": "My Itho Daalderop Amber Project",
+  "name": "My Itho Daalderop Amber Project - NEW",
   "version": "0.0.2",
   "builds": [
     {
       "chipFamily": "ESP32",
       "ota": {
-        "md5": "221142619c7b787d4f5c9298daede03d",
+        "md5": "5f60724a9a30eaf67da5df30eedf7d96",
         "path": "/leejoow/esptest/main/firmware.bin"
       }
     }
