@@ -1,5 +1,5 @@
 {
-  "name": "My ESPHome Project",
+  "name": "My OTA Test Project - Met een lange naam",
   "version": "0.2.0",
   "builds": [
     {
