@@ -1,12 +1,14 @@
 {
-  "name": "My Itho Daalderop Amber Project - NEW",
-  "version": "0.0.2",
+  "name": "Itho Daalderop Amber Controller",
+  "version": "1.0.0",
   "builds": [
     {
       "chipFamily": "ESP32",
       "ota": {
-        "md5": "5f60724a9a30eaf67da5df30eedf7d96",
-        "path": "/leejoow/esptest/main/firmware.bin"
+        "md5": "2bc3642f3330f2f177ef985d901341a1",
+        "path": "/leejoow/esptest/main/firmware.bin",
+        "release_url": "https://www.nu.nl/",
+        "summary": "A fancy new version!"
       }
     }
   ]
